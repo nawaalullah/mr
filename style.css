@@ -1,0 +1,133 @@
+body {
+    font-family: 'Poppins';
+    background-color:white;
+}
+
+.navaktif{
+    background-color:#879694 ;
+    color: white;
+}
+
+
+.nav-underline  .nav-link {
+    color: black;
+  }
+
+  .nav-underline  .nav-link:hover {
+    color: #879694;
+    border-bottom: 3px solid #879694;
+  }
+  
+.nav-underline  .nav-link.active {
+    color: #879694;
+    border-bottom: 3px solid #879694;
+  }
+  
+  /* .tab-content {
+    border: 1px solid #dee2e6;
+    border-top: transparent;
+    padding: 15px;
+  }
+  
+  .tab-content .tab-pane {
+    background-color: #FFF;
+    color: black  ;
+    min-height: 200px;
+    height: auto;
+  } */
+
+  
+  
+
+@media only screen and (min-device-width : 100px) and (max-device-width : 500px) {
+    .banner{
+        display: none;
+    }
+
+    .homekiri h1{
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .homekiri h4{
+        text-align: center;
+        font-size: 15px;
+    }
+    .tentangkami{
+        text-align: left;
+    }
+    .tentangkami h5{
+        margin: 7%;
+
+    }
+    
+}
+
+
+@media only screen and (min-device-width : 501px) and (max-device-width : 720px) {
+    
+  
+    .homekiri h1{
+        text-align: left;
+        font-size: 45px;
+    }
+
+    .homekiri h4{
+        text-align: left;
+        font-size: 15px;
+    }
+    .gambartentangkami{
+        display: none;
+    
+    }
+    .tentangkami{
+        text-align: left;
+    }
+    .tentangkami h5{
+        margin: 0%;
+
+    }
+
+}
+
+@media only screen and (min-device-width : 721px) and (max-device-width : 1280px) {
+    
+  
+    .homekiri h1{
+        text-align: left;
+        font-size: 50px;
+    }
+
+    .homekiri h4{
+        text-align: left;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-device-width : 1281px) and (max-device-width : 1920px) {
+    
+  
+    .homekiri h1{
+        text-align: left;
+        font-size: 110px;
+    }
+
+    .homekiri h4{
+        text-align: left;
+        font-size: 25px;
+    }
+   
+}
+
+.login {
+    color: white;
+    transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+        0.3s box-shadow,
+        0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+        
+}
+
+.login:hover {
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
